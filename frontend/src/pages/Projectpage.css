@@ -1,0 +1,84 @@
+.pro-base{
+    overflow: hidden;    
+}
+.pro-heading{
+    font-size: 3rem;
+    margin-bottom: 2rem
+}
+.pro-container{
+    margin-top: 2rem ;
+    padding: 0 8.5em 0 8.5em;
+}
+
+.protitle{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 600;
+}
+.pro-text{
+   padding-top: 1rem;
+   padding-left: 1rem;
+}
+.pro-description{
+    font-size: 1.25rem /* 20px */;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 640px){
+    .pro-base{
+        overflow:hidden;
+    }
+    .pro-heading{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .pro-container{
+        margin-top: 1rem ;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .pro-text{
+        padding-top: 0.5rem;
+        padding-left: 0rem;
+     }
+
+    .protitle{
+        font-size: 1.4rem /* 24px */;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .pro-description{
+        font-size: 1.1rem /* 20px */;
+
+    }
+}
+@media screen and (min-device-width: 640px) and (max-device-width: 1060px){
+    .pro-base{
+        overflow:hidden;
+    }
+    .pro-heading{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .pro-container{
+        margin-top: 1rem ;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .pro-text{
+        margin-top: 9px;
+     }
+
+    .protitle{
+        font-size: 1.4rem /* 24px */;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .pro-description{
+        font-size: 1.1rem /* 20px */;
+
+    }
+}

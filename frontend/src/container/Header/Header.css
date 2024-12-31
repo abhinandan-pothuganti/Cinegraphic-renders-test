@@ -1,0 +1,30 @@
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000; /* Optional: black background for better contrast */
+  }
+  
+  .embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  @media (min-width: 750px) {
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+
+}

@@ -1,0 +1,23 @@
+.pro-base2{
+    overflow: hidden;
+}
+.pro-container2{
+    margin-top: 2rem ;
+}
+.ytembed{
+    height: 400px;
+}
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 600px){
+    .pro-base2{
+        margin:0 2rem 0 2rem;
+        overflow:scroll;
+    }
+    .pro-container2{
+        margin-top: 0.5rem ;
+    }
+    .ytembed{
+        height: 250px;
+    }
+}

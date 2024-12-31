@@ -1,0 +1,116 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000; 
+    background-color: white; 
+    transition: box-shadow 0.3s ease; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8.5em 0px 7.5em;
+    width: 100vw;
+}
+.logo{
+    width: 11rem;
+
+}
+.ham{
+    display: none;
+}
+.toggle{
+    width: 100%;
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 500px){
+    .navbar{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 1rem 0px 1rem;     
+    }
+    .logo{
+        width: 8rem;
+    
+    }
+    .ham{     
+        padding-top: 10px;
+        display:inline-block;
+    }
+    .toggle{
+        width: 100vw;
+    }
+
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 900px){
+    .navbar{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 2em 0px 2rem;
+
+       
+    }
+    .ham{     
+        padding-top: 20px;
+        padding-right: 10px;
+        display:inline-block;
+    }
+    .toggle{
+        width: 100vw;
+    }
+
+}
+
+@media screen and (min-device-width: 900px) and (max-device-width: 1020px){
+    .navbar{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 3.65em 0px 3.65em;
+
+       
+    }
+    .ham{     
+        padding-top: 20px;
+        display:inline-block;
+    }
+    .toggle{
+        width: 100vw;
+    }
+    .logo{
+        width: 11rem;
+    }
+
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1400px){
+    .navbar{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 3.65em 0px 3.65em;
+
+       
+    }
+    .ham{     
+        padding-top: 30px;
+        display:none;
+    }
+    .toggle{
+        width: 100vw;
+    }
+    .logo{
+        width: 11rem;
+    }
+
+}
+
+
+
+
+
+  

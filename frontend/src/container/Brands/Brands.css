@@ -1,0 +1,78 @@
+.brands-container{
+    background-image: url('C:/Users/PC/Desktop/Abhi/Cinegraphics-main/frontend/src/assets/brands/All brands.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+.brands-main{
+    margin-left: 8.5em;
+    margin-right: 8.5em;
+}
+.line-br{
+    margin-bottom: 3rem;
+}
+
+.brands-heading{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+}
+.brands{
+    margin-top: 0rem /* 80px */;
+    margin-bottom: 0rem /* 80px */;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 600px){
+    .brands-main{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .brands-container{
+        background-image: url('C:/Users/PC/Desktop/Abhi/Cinegraphics-main/frontend/src/assets/brands/All brands2.png');
+        background-size: contain;
+        background-repeat:no-repeat;
+        margin-left: 1rem;
+        height: 40vh;
+        width: 100%;
+    }
+    .brands-heading{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+   
+    }
+    .brands{
+        margin-top: 2rem /* 80px */;
+        margin-bottom: 0rem /* 80px */;
+    }
+    .line-br{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 900px){
+    .brands-main{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .brands-container{
+        background-image: url('C:/Users/PC/Desktop/Abhi/Cinegraphics-main/frontend/src/assets/brands/All brands.png');
+        background-size: contain;
+        background-repeat:no-repeat;
+        margin-left: 0rem;
+        height: 40vh;
+        width: 100%;
+    }
+    .line-br{
+        margin-bottom: 2rem;
+    }
+    .brands-heading{
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+    }
+    .brands{
+        margin-top: 2rem /* 80px */;
+        margin-bottom: 2rem /* 80px */;
+    }
+
+}
